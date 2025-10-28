@@ -1,0 +1,44 @@
+# Data files - don't commit shapefiles and data
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qpj
+*.qix
+*.sbn
+*.sbx
+data/
+outputs/
+*.csv
+*.geojson
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment
+.env
+environment.yml
+conda-env.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+._*
+
+# Only commit notebooks
+!*.ipynb
