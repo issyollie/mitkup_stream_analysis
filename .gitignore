@@ -13,6 +13,17 @@ outputs/
 *.csv
 *.geojson
 
+# Word / RTF / temporary
+*.docx
+*.rtf
+~$*
+
+# Archives
+*.rar
+
+# QGIS
+*.qgz
+
 # Python
 __pycache__/
 *.py[cod]
@@ -39,6 +50,3 @@ conda-env.yml
 .DS_Store
 Thumbs.db
 ._*
-
-# Only commit notebooks
-!*.ipynb
